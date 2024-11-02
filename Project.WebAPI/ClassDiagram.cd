@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Project.WebAPI.Services.CacheService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CacheService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.ApplicationContext">
+    <Position X="21" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAAAAgABAAAAQAAQAAAAAABAgAAAIAAAAA=</HashCode>
+      <FileName>Models\Contexts\ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.DbContext" Collapsed="true">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.AppointmentContext">
+    <Position X="16" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\AppointmentContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.AdminContext">
+    <Position X="16" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\AdminContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.AppointmentRelationshipContext">
+    <Position X="23.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\AppointmentRelationshipContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.DoctorContext">
+    <Position X="26" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\DoctorContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.MedicalCardContext">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\MedicalCardContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.MedicationContext">
+    <Position X="23.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\MedicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.MedicationRelationshipContext">
+    <Position X="26" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\MedicationRelationshipContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.PastAppointmentContext">
+    <Position X="21.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Models\Contexts\PastAppointmentContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.WebAPI.Models.Contexts.UserContext">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contexts\UserContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Project.WebAPI.Services.ICacheService" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ICacheService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
